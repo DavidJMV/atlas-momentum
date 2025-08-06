@@ -1,0 +1,11 @@
+{
+  "simulation_date": "2025-08-06T17:25:12.156534",
+  "overall_pass_rate": 0.0,
+  "challenge_pass_rate": 0.0,
+  "verification_pass_rate": 0,
+  "total_months": 12,
+  "monthly_results": [
+    {
+      "month": 1,
+      "period": "2023-01-01 to 2023-01-31",
+      "challenge_passed": 
