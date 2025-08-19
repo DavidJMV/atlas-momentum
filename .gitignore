@@ -1,0 +1,85 @@
+# Atlas Final - Only keep essential files
+# Block all development artifacts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Development files
+*_simulation*
+*_backtest*
+*_test*
+*_demo*
+*_optimization*
+*hybrid*
+*diagnosis*
+*validation*
+*analysis*
+*ftmo*
+*apex*
+enhanced_*
+improved_*
+professional_*
+realistic_*
+smart_*
+final_*
+honest_*
+multi_*
+live_*
+real_*
+deploy_*
+setup_*
+find_*
+run_*
+test_*
+parameter_*
+optimization_*
+strategy_*
+continuous_*
+
+# Config files (except production)
+config/
+src/
+tests/
+notebooks/
+data/
+logs/
+output/
+results/
+
+# Documentation (except essential)
+*.md
+!README.md
+!ATLAS_FINAL_SUMMARY.md
+
+# Environment
+.env.*
+!.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+*.log
+*.json
+*.csv
+*.xlsx
