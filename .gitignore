@@ -83,3 +83,11 @@ Thumbs.db
 *.json
 *.csv
 *.xlsx
+
+# Secrets and local settings
+.env
+.env.*
+*.log
+.venv/
+.vscode/
+.DS_Store
